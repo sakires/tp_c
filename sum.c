@@ -29,6 +29,7 @@ int main(void){
 	tab[4] = 0.01;
 	double res1 = sum1(tab,5);
 	double res2 = sum2(tab,5);
+	
 	printf("res1 vaut %f",res1);
 	printf("res2 vaut %f",res2);
 	free(tab);
